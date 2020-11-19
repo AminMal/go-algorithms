@@ -4,16 +4,15 @@ import(
     "fmt"
     )
 
-func search(elems []int, target int, iterationCount int) (bool, int) {// int is going to be index
+func search(elems []int, target int, iterationCount int) bool {
 
-	fmt.Println(iterationCount, "th iterate")
 	if len(elems) == 1 {
-		if target != elems[0] {return false, 0}
-		return true, 0
+		if target != elems[0] {return false}
+		return true
 	}
     var currentIndex int = len(elems) / 2 // division of ints => int
     if elems[currentIndex] == target {
-	return true, currentIndex
+	return true
     } else {
 	if elems[currentIndex] > target {
 	    return search(elems[:currentIndex], target, iterationCount + 1)
@@ -21,28 +20,18 @@ func search(elems []int, target int, iterationCount int) (bool, int) {// int is 
 	    return search(elems[currentIndex:], target, iterationCount + 1)
 	}
     }
-    return false, -1
 }
 
 func main() {
 
-    var source []int
-    source = append(source, 1)
-    source = append(source, 2)
-    source = append(source, 3)
-    source = append(source, 4)
-    source = append(source, 5)
-    source = append(source, 6)
-    source = append(source, 7)
-    source = append(source, 8)
-    source = append(source, 9)
-    source = append(source, 19)
+    input := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+    target := 10
 
-    target := 19
-    stat, index := search(source, target, 0)
+    stat := search(input, target, 0)
     if stat == false {
         fmt.Println("element ", target, "not found")
     } else {
-	fmt.Println("element ", target, "is at index: ", index)
+	fmt.Println("element", target, "exists")
     }
+
 }

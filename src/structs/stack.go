@@ -15,7 +15,7 @@ func (s MyStack) push(element int) {
 
 func (s MyStack) pop() (int, MyStack, error) {
     if len(s.elements) == 0 {
-	return -1, MyStack{elements: nil}, errors.New("Stack is empty")
+	return -1, MyStack{elements: nil}, errors.New("stack is empty")
     } else {
         value := s.elements[len(s.elements) - 1]
         return value, MyStack{elements: s.elements[:len(s.elements) - 1]}, nil

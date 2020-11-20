@@ -4,6 +4,10 @@ import(
 	"fmt"
 )
 
+/*
+		From 99 scala problems
+ */
+
 func checkEq(slice []int, firstIndex int, secondIndex int) bool {
 	if firstIndex == -1 {
 		return true

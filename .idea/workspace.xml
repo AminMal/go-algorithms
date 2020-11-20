@@ -24,7 +24,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4b3b80c-14bd-4221-ba21-b687ee4d9811" name="Default Changelist" comment="" />
+    <list default="true" id="e4b3b80c-14bd-4221-ba21-b687ee4d9811" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +44,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1kQlhyJHzzSmDTEOY3CkkdSdoXE" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -55,7 +59,7 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Go Build.go build list.go">
+  <component name="RunManager" selected="Go Build.go build palindrome.go">
     <configuration name="go build arrayProductExceptSelf.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="algos_in_go" />
       <working_directory value="$PROJECT_DIR$" />
@@ -72,8 +76,17 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build palindrome.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="algos_in_go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/palindrome.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build palindrome.go" />
         <item itemvalue="Go Build.go build list.go" />
         <item itemvalue="Go Build.go build arrayProductExceptSelf.go" />
       </list>
@@ -113,21 +126,21 @@
       <screen x="55" y="27" width="1311" height="741" />
     </state>
     <state x="488" y="140" width="424" height="513" key="FileChooserDialogImpl/55.27.1311.741@55.27.1311.741" timestamp="1605717968173" />
-    <state width="1265" height="271" key="GridCell.Tab.0.bottom" timestamp="1605795170807">
+    <state width="1265" height="145" key="GridCell.Tab.0.bottom" timestamp="1605893002968">
       <screen x="55" y="27" width="1311" height="741" />
     </state>
-    <state width="1265" height="271" key="GridCell.Tab.0.bottom/55.27.1311.741@55.27.1311.741" timestamp="1605795170807" />
-    <state width="1265" height="271" key="GridCell.Tab.0.center" timestamp="1605795170806">
+    <state width="1265" height="145" key="GridCell.Tab.0.bottom/55.27.1311.741@55.27.1311.741" timestamp="1605893002968" />
+    <state width="1265" height="145" key="GridCell.Tab.0.center" timestamp="1605893002968">
       <screen x="55" y="27" width="1311" height="741" />
     </state>
-    <state width="1265" height="271" key="GridCell.Tab.0.center/55.27.1311.741@55.27.1311.741" timestamp="1605795170806" />
-    <state width="1265" height="271" key="GridCell.Tab.0.left" timestamp="1605795170806">
+    <state width="1265" height="145" key="GridCell.Tab.0.center/55.27.1311.741@55.27.1311.741" timestamp="1605893002967" />
+    <state width="1265" height="145" key="GridCell.Tab.0.left" timestamp="1605893002967">
       <screen x="55" y="27" width="1311" height="741" />
     </state>
-    <state width="1265" height="271" key="GridCell.Tab.0.left/55.27.1311.741@55.27.1311.741" timestamp="1605795170806" />
-    <state width="1265" height="271" key="GridCell.Tab.0.right" timestamp="1605795170807">
+    <state width="1265" height="145" key="GridCell.Tab.0.left/55.27.1311.741@55.27.1311.741" timestamp="1605893002967" />
+    <state width="1265" height="145" key="GridCell.Tab.0.right" timestamp="1605893002968">
       <screen x="55" y="27" width="1311" height="741" />
     </state>
-    <state width="1265" height="271" key="GridCell.Tab.0.right/55.27.1311.741@55.27.1311.741" timestamp="1605795170807" />
+    <state width="1265" height="145" key="GridCell.Tab.0.right/55.27.1311.741@55.27.1311.741" timestamp="1605893002968" />
   </component>
 </project>

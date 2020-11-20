@@ -1,8 +1,8 @@
 package main
 
-import(
-    "fmt"
+import (
     "errors"
+    "fmt"
 )
 
 type MyStack struct {
@@ -29,7 +29,7 @@ func main() {
 	source[i] = i * 2
     }
 
-    var stack MyStack = MyStack{elements: source}
+    var stack = MyStack{elements: source}
     lastElem, stackAfterThat, _ := stack.pop()
 
 

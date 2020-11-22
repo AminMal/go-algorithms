@@ -38,3 +38,12 @@ func (ll LinkedList) Prepend(element int) LinkedList {
 		}
 	}
 }
+
+func (ll LinkedList) Get(index int) (int, error) {
+	if index < 0 || index >= len(ll.nodes) {
+		return -1, errors.New("index out of bound")
+	} else {
+		elem := ll.nodes[index]
+		return elem.data, nil
+	}
+}

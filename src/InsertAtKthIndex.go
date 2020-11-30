@@ -1,8 +1,8 @@
 package main
 
 import (
-	"fmt"
 	"errors"
+	"fmt"
 )
 
 func addElemAt(index int, element int, slice []int) ([]int, error) {

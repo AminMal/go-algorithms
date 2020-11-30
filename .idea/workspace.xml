@@ -26,7 +26,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e4b3b80c-14bd-4221-ba21-b687ee4d9811" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InsertAtKthIndex.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/InsertAtKthIndex.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,14 +59,28 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
   </component>
-  <component name="RunManager" selected="Go Build.go build InsertAtKthIndex.go">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build sudoku.go (1)">
     <configuration name="go build InsertAtKthIndex.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="algos_in_go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/src/InsertAtKthIndex.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build NRandomElements.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="algos_in_go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/NRandomElements.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -79,37 +92,29 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build linked_list.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build sudoku.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="algos_in_go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/structs/linked_list.go" />
+      <filePath value="$PROJECT_DIR$/src/sudoku.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build palindrome.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build sudoku.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="algos_in_go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/palindrome.go" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build testingMods.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="algos_in_go" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/testingMods.go" />
+      <filePath value="$PROJECT_DIR$/src/structs/sudoku.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build sudoku.go (1)" />
+        <item itemvalue="Go Build.go build sudoku.go" />
+        <item itemvalue="Go Build.go build NRandomElements.go" />
         <item itemvalue="Go Build.go build InsertAtKthIndex.go" />
         <item itemvalue="Go Build.go build RemoveKthElement.go" />
-        <item itemvalue="Go Build.go build linked_list.go" />
-        <item itemvalue="Go Build.go build testingMods.go" />
-        <item itemvalue="Go Build.go build palindrome.go" />
       </list>
     </recent_temporary>
   </component>
@@ -148,26 +153,30 @@
       <screen x="55" y="27" width="1311" height="741" />
     </state>
     <state x="400" y="198" width="610" height="396" key="#com.intellij.fileTypes.FileTypeChooser/55.27.1311.741@55.27.1311.741" timestamp="1605640827793" />
+    <state x="461" y="264" width="488" height="264" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1606750855152">
+      <screen x="55" y="27" width="1311" height="741" />
+    </state>
+    <state x="461" y="264" width="488" height="264" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/55.27.1311.741@55.27.1311.741" timestamp="1606750855152" />
     <state x="488" y="140" width="424" height="513" key="FileChooserDialogImpl" timestamp="1605717968173">
       <screen x="55" y="27" width="1311" height="741" />
     </state>
     <state x="488" y="140" width="424" height="513" key="FileChooserDialogImpl/55.27.1311.741@55.27.1311.741" timestamp="1605717968173" />
-    <state width="1265" height="247" key="GridCell.Tab.0.bottom" timestamp="1606745966213">
+    <state width="1265" height="280" key="GridCell.Tab.0.bottom" timestamp="1606751901537">
       <screen x="55" y="27" width="1311" height="741" />
     </state>
-    <state width="1265" height="247" key="GridCell.Tab.0.bottom/55.27.1311.741@55.27.1311.741" timestamp="1606745966213" />
-    <state width="1265" height="247" key="GridCell.Tab.0.center" timestamp="1606745966212">
+    <state width="1265" height="280" key="GridCell.Tab.0.bottom/55.27.1311.741@55.27.1311.741" timestamp="1606751901537" />
+    <state width="1265" height="280" key="GridCell.Tab.0.center" timestamp="1606751901536">
       <screen x="55" y="27" width="1311" height="741" />
     </state>
-    <state width="1265" height="247" key="GridCell.Tab.0.center/55.27.1311.741@55.27.1311.741" timestamp="1606745966212" />
-    <state width="1265" height="247" key="GridCell.Tab.0.left" timestamp="1606745966211">
+    <state width="1265" height="280" key="GridCell.Tab.0.center/55.27.1311.741@55.27.1311.741" timestamp="1606751901536" />
+    <state width="1265" height="280" key="GridCell.Tab.0.left" timestamp="1606751901536">
       <screen x="55" y="27" width="1311" height="741" />
     </state>
-    <state width="1265" height="247" key="GridCell.Tab.0.left/55.27.1311.741@55.27.1311.741" timestamp="1606745966211" />
-    <state width="1265" height="247" key="GridCell.Tab.0.right" timestamp="1606745966212">
+    <state width="1265" height="280" key="GridCell.Tab.0.left/55.27.1311.741@55.27.1311.741" timestamp="1606751901536" />
+    <state width="1265" height="280" key="GridCell.Tab.0.right" timestamp="1606751901537">
       <screen x="55" y="27" width="1311" height="741" />
     </state>
-    <state width="1265" height="247" key="GridCell.Tab.0.right/55.27.1311.741@55.27.1311.741" timestamp="1606745966212" />
+    <state width="1265" height="280" key="GridCell.Tab.0.right/55.27.1311.741@55.27.1311.741" timestamp="1606751901537" />
     <state x="199" y="31" key="SettingsEditor" timestamp="1605907446324">
       <screen x="55" y="27" width="1311" height="741" />
     </state>

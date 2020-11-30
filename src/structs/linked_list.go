@@ -1,7 +1,8 @@
 package main
 
-import(
+import (
 	"errors"
+	"fmt"
 )
 
 type Node struct {
@@ -16,10 +17,10 @@ type LinkedList struct {
 
 func (ll LinkedList) Append(element int) LinkedList {
 	if len(ll.nodes) == 0 {
-		return LinkedList{nodes: []Node{Node{data: element}}}
+		return LinkedList{nodes: []Node{{data: element}}}
 	} else {
 		last := ll.nodes[len(ll.nodes) - 1]
-		node := Node{data: element, previous: &last}
+		node := Node{data: element, previous: &(ll.nodes[len(ll.nodes) - 1])}
 		updatedLeft := Node{data: last.data, previous: last.previous, next: &node}
 		return LinkedList{nodes: append(ll.nodes[:len(ll.nodes) - 1], updatedLeft, node)}
 	}
@@ -27,10 +28,10 @@ func (ll LinkedList) Append(element int) LinkedList {
 
 func (ll LinkedList) Prepend(element int) LinkedList {
 	if len(ll.nodes) == 0 {
-		return LinkedList{nodes: []Node{Node{data: element}}}
+		return LinkedList{nodes: []Node{{data: element}}}
 	} else {
 		right := ll.nodes[0]
-		node := Node{data: element, next: &right}
+		node := Node{data: element, next: &(ll.nodes[0])}
 		updatedRight := Node {data: right.data, next: right.next, previous: &node}
 		slice := []Node{node, updatedRight}
 		return LinkedList{
@@ -46,4 +47,16 @@ func (ll LinkedList) Get(index int) (int, error) {
 		elem := ll.nodes[index]
 		return elem.data, nil
 	}
+}
+
+func main() {
+
+    emptyList := LinkedList{}
+    listWithFirstElement := emptyList.Append(0)
+    listWithSecondElem := listWithFirstElement.Append(1)
+    list3 := listWithSecondElem.Prepend(2)
+    list4 := list3.Append(4)
+
+    fmt.Println(list4)
+
 }

@@ -1,8 +1,7 @@
-package main
+package structs
 
 import (
 	"errors"
-	"fmt"
 )
 
 type Node struct {
@@ -47,16 +46,4 @@ func (ll LinkedList) Get(index int) (int, error) {
 		elem := ll.nodes[index]
 		return elem.data, nil
 	}
-}
-
-func main() {
-
-    emptyList := LinkedList{}
-    listWithFirstElement := emptyList.Append(0)
-    listWithSecondElem := listWithFirstElement.Append(1)
-    list3 := listWithSecondElem.Prepend(2)
-    list4 := list3.Append(4)
-
-    fmt.Println(list4)
-
 }
